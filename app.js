@@ -22,9 +22,9 @@ async function main() {
 
     // Insertar un documento (esto crea la base de datos y colección si no existen)
     const resultado = await coleccion.insertOne({
-        nombre: "Jaime Llanos",
-        edad: 36,
-        email: "jllanosb@unc.edu.pe"
+        nombre: "Julissa Llanos",
+        edad: 7,
+        email: "julissa@unc.edu.pe"
     });
 
     console.log("Documento insertado con ID:", resultado.insertedId);
